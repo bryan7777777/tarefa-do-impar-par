@@ -5,15 +5,17 @@ function media() {
     salario = Number(prompt("digite seu salario"));
     vendas = Number(prompt("digite o valor das vendas"));
 
-    if (vendas < 3.000) {
+    if (vendas < 3000) {
         comissao = 15;
     } else {
-        if (vendas <= 1.500) {
+        if (vendas <= 1500) {
             comissao = 10;
         } else {
             comissao = 5;
         }
     }
+
+    // porcentagem é o numero que eu quero dividir vezes o divisor dividido por 100, ex 2000 X 15 / 100
 
     comissaoValor = vendas / comissao;
     pagamento = salario + comissaoValor;
