@@ -5,7 +5,7 @@ function Celsius(converterC) {
 }
 
 function Fahrenheit(converterF) {
-    result = 5 / 9 * (converterF - 32);
+    result = (5 / 9) * (converterF - 32);
     return result;
 }
 
