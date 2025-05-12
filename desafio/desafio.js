@@ -14,7 +14,7 @@ function main() {
 
     escolhaConversao = Number(prompt('Digite 1 para converter graus celsius em fahrenheit, digite 2 para converter graus fahrenheit em celsius'))
 
-    if (escolhaConversao === 2 || 1) {
+    if (escolhaConversao === 2 || escolhaConversao ===1) {
         if (escolhaConversao === 1) {       
          celsius = Number(prompt('digite o valor em celsius que você deseja converter'))
          alert(Celsius(celsius));
