@@ -5,7 +5,7 @@ function media() {
     salario = Number(prompt("digite seu salario"));
     vendas = Number(prompt("digite o valor das vendas"));
 
-    if (vendas > 3000) {
+    if (vendas >= 3000) {
         comissao = 15;
     } else {
         if (vendas >= 1500) {
